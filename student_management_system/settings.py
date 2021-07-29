@@ -17,7 +17,7 @@ SECRET_KEY ='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['naveenproject.azurewebsites.net']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['naveenproject.azurewebsites.net' , 'naveenbabu.me' ]  # Not recommended but useful in dev mode
 
 
 # Application definition
@@ -142,12 +142,12 @@ TIME_ZONE = 'Asia/Calcutta'
 # EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_mails")
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST = 'mail.privateemail.com'
 EMAIL_PORT = 587
 
-EMAIL_HOST_USER ="mi5907530@gmail.com"
+EMAIL_HOST_USER ="admin@naveenbabu.me"
     #os.environ.get('EMAIL_ADDRESS')
-EMAIL_HOST_PASSWORD ="Naveensms@1234"
+EMAIL_HOST_PASSWORD ="Naveen@1234"
     #os.environ.get('EMAIL_PASSWORD')
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = "Student Management System-Adikavi Nannaya University"
