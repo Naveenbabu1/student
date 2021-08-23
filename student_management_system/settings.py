@@ -17,7 +17,7 @@ SECRET_KEY ='(i#*06f#keydy_fh17bf=$0f6v)^wr^l7*u4gq42m*sztu#2_m'
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['naveenproject.azurewebsites.net' , 'naveenbabu.me' ]  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['naveenproject.azurewebsites.net' , 'naveenbabu.me' , '127.0.0.1' ]  # Not recommended but useful in dev mode
 
 
 # Application definition
@@ -76,18 +76,19 @@ WSGI_APPLICATION = 'student_management_system.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db3.sqlite3',
-    }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'django',
-    #     'USER': os.environ.get('DB_USER'),
-    #     'PASSWORD': os.environ.get('DB_PASS'),
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '3307'
-    # }
+   # 'default': {
+    #    'ENGINE': 'django.db.backends.sqlite3',
+     #   'NAME': BASE_DIR / 'db3.sqlite3',
+   # }
+     'default': {
+    'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'student',
+        'USER': 'student',
+        'PASSWORD': 'student',
+        'HOST': 'localhost',
+        'PORT': '3306'
+
+     }
 }
 
 
