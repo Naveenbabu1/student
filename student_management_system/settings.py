@@ -145,7 +145,7 @@ EMAIL_HOST_USER ="admin@naveenbabu.me"
 EMAIL_HOST_PASSWORD ="Naveen@1234"
     #os.environ.get('EMAIL_PASSWORD')
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = "Student Management System-Adikavi Nannaya University"
+DEFAULT_FROM_EMAIL = 'Adikavi Nannaya University'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
