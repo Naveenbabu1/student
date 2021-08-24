@@ -145,7 +145,7 @@ TIME_ZONE = 'Asia/Calcutta'
 # EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_mails")
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.privateemail.com'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 
 EMAIL_HOST_USER ="mi5907530@gmail.com"
