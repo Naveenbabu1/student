@@ -150,7 +150,7 @@ EMAIL_PORT = 587
 
 EMAIL_HOST_USER ="mi5907530@gmail.com"
     #os.environ.get('EMAIL_ADDRESS')
-EMAIL_HOST_PASSWORD ="Aknusms@1234"
+EMAIL_HOST_PASSWORD ="Aknusms@19"
     #os.environ.get('EMAIL_PASSWORD')
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Adikavi Nannaya University'
