@@ -68,7 +68,7 @@ PyGetWindow==0.0.9
 PyMsgBox==1.0.9
 PyMySQL==1.0.2
 pyparsing==2.4.7
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyperclip==1.8.2
 PyRect==0.1.4
 PyScreeze==0.1.27
