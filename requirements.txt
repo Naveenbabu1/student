@@ -49,7 +49,7 @@ mysql-client==0.0.1
 mysql-connector==2.2.9
 mysql-connector-python==8.0.24
 mysqlclient==2.0.3
-numpy==1.21.0
+numpy==1.22.0
 olefile==0.44
 opencv-python==4.5.2.54
 openpyxl==3.0.7
